@@ -25,7 +25,7 @@ The script `benchmark_generator.py` is used to create new problem instances. At 
 python ./script/benchmark_generator.py  --mapFile  ./script/sortation_large.map --revealNum 1   --problemName randomTest --taskNum 5 --teamSizes 100 200 300 --benchmark_folder ./test --minEPT 1 --maxEPT 5
 ```
 
-It is also possible to create problem instances using pre-generated task sets, which are specialised for certain types of maps (e.g. warehouse, see below). We show this usage below:
+It is also possible to create problem instances using **pre-generated task sets**, which are specialised for certain types of maps (e.g. warehouse, see below). We show this usage below:
 ```shell
 python ./script/benchmark_generator.py  --mapFile ./script/sortation_large.map --revealNum 1   --problemName warehouseTest --taskFile ./script/sortation_large.tasks --teamSizes 100 200 300 --benchmark_folder ./test --minEPT 1 --maxEPT 5
 ```
